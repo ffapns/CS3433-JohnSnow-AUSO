@@ -12,6 +12,27 @@
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="customcss/custompage.css">
         <title>ADD NEW DOCUMENT - AUSO.JSP</title>
+
+        <script>
+            function addOrganizersRow() {
+                var orgTb = document.getElementById("organizertb");
+                var len = orgTb.rows.length;
+
+                var row = orgTb.insertRow(len);
+                var cell1 = row.insertCell(0);
+                var cell2 = row.insertCell(1);
+                var cell3 = row.insertCell(2);
+                var cell4 = row.insertCell(3);
+                var stdName = "studentId"+row;
+                var phoneName = "phoneNo"+row;
+                var emailName = "emailAddress"+row;
+                var positionName = "teampos"+row;
+                cell1.innerHTML = "<input name='"+stdName+"' type='text' class='form-control'/>";
+                cell2.innerHTML = "<input name='"+phoneName+"' type='text' class='form-control'/>";
+                cell3.innerHTML = "<input name='"+emailName+"' type='text' class='form-control'/>";
+                cell4.innerHTML = "<select name='"+positionName+"' style='width: 100%;'><option value='-'>-</option><option value='09'>Participant</option><option value='02'>Project Committee</option><option value='01'>Project Leader</option><option value='03'>Project Staff</option></select>";
+            }
+        </script>
     </head>
     <body>
         <nav class="navbar navbar-default navbar-fixed-top">
@@ -185,13 +206,12 @@
                         </div>
 
                         <fieldset class="form-group">
-                            <legend>Organizers <span><button type="button" class="btn btn-sm btn-success pull-right">+</button></span></legend>
+                            <legend>Organizers <span><button type="button" id="addOrganizer" onClick="addOrganizersRow()" class="btn btn-sm btn-success pull-right">+</button></span></legend>
                             <div class="row">
                                 <div class="table-responsive">
                                     <table class="table table-striped" id="organizertb">
                                         <thead>
                                             <tr>
-
                                                 <th>Student Id</th>
                                                 <th>Phone No.</th>
                                                 <th>Email Address</th>
@@ -202,16 +222,16 @@
                                             <tr>
 
                                                 <td>
-                                                    <input name="studentId" type="text" class="form-control"/>
+                                                    <input name="studentId1" type="text" class="form-control"/>
                                                 </td>
                                                 <td>
-                                                    <input name="phoneNo" type="text" class="form-control"/>
+                                                    <input name="phoneNo1" type="text" class="form-control"/>
                                                 </td>
                                                 <td>
-                                                    <input name="emailAddress" type="text" class="form-control"/>
+                                                    <input name="emailAddres1" type="text" class="form-control"/>
                                                 </td>
                                                 <td>
-                                                    <select name="teampos" style="width:190px" style="width: 100%;">
+                                                    <select name="teampos1" style="width: 100%;">
                                                         <option value="-">-</option>
 
                                                         <option value="09">Participant</option>
@@ -288,8 +308,6 @@
                                                 <td>
                                                     <input name="goalTxt" type="text" class="form-control"/>
                                                 </td>
-
-
                                             </tr>
 
                                         </tbody>
