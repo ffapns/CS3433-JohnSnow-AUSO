@@ -15,9 +15,13 @@
     </head>
     <body>
         <div class="container">
-
+            <div class="row">
+                <div class="col-lg-12">
+                    <img style="width: 100%;" class="img-responsive" src="http://samis.au.edu/club/image/index-club1_01.jpg">
+                </div>
+            </div>
             <form class="form-signin" action="/AUSOWeb/documentlist.jsp">
-                <h2 class="form-signin-heading text-center">Please sign in</h2>
+<!--                <h2 class="form-signin-heading text-center">Please sign in</h2>-->
                 <label for="inputUserame" class="sr-only">Username</label>
                 <input type="text" id="inputUsername" class="form-control text-center" placeholder="Username" required autofocus>
                 <label for="inputPassword" class="sr-only">Password</label>
