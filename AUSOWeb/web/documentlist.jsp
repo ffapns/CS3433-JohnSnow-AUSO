@@ -67,7 +67,7 @@
             <div class="row" style="margin-top: 10px;">
                 <div class="col-sm-6">
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#departmentModal">+ ADD NEW PROJECT</button> 
-                   
+
                 </div>
             </div>
             <div class="row"style="margin-top: 10px;">
@@ -96,14 +96,22 @@
                                             <td>Lorem</td>
                                             <td>ipsum</td>
                                             <td>dolor</td>
-                                            <td>sit</td>
+                                            <td>
+                                                <div class="btn-group" role="group" aria-label="...">
+                                                    <button type="button" class="btn btn-sm btn-default">VIEW</button>
+                                                </div>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>2</td>
                                             <td>amet</td>
                                             <td>consectetur</td>
                                             <td>adipiscing</td>
-                                            <td>elit</td>
+                                            <td>
+                                                <div class="btn-group" role="group" aria-label="...">
+                                                    <button type="button" class="btn btn-sm btn-default">VIEW</button>
+                                                </div>
+                                            </td>
                                         </tr>
 
                                         <tr>
@@ -111,14 +119,22 @@
                                             <td>per</td>
                                             <td>inceptos</td>
                                             <td>himenaeos</td>
-                                            <td>Curabitur</td>
+                                            <td>
+                                                <div class="btn-group" role="group" aria-label="...">
+                                                    <button type="button" class="btn btn-sm btn-default">VIEW</button>
+                                                </div>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>4</td>
                                             <td>sodales</td>
                                             <td>ligula</td>
                                             <td>in</td>
-                                            <td>libero</td>
+                                            <td>
+                                                <div class="btn-group" role="group" aria-label="...">
+                                                    <button type="button" class="btn btn-sm btn-default">VIEW</button>
+                                                </div>
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -142,7 +158,11 @@
                                             <td>Lorem</td>
                                             <td>ipsum</td>
                                             <td>dolor</td>
-                                            <td>sit</td>
+                                            <td>
+                                                <div class="btn-group" role="group" aria-label="...">
+                                                    <button type="button" class="btn btn-sm btn-default">VIEW</button>
+                                                </div>
+                                            </td>
                                         </tr>
 
                                         <tr>
@@ -150,7 +170,11 @@
                                             <td>sodales</td>
                                             <td>ligula</td>
                                             <td>in</td>
-                                            <td>libero</td>
+                                            <td>
+                                                <div class="btn-group" role="group" aria-label="...">
+                                                    <button type="button" class="btn btn-sm btn-default">VIEW</button>
+                                                </div>
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -172,7 +196,7 @@
         <div class="modal-dialog modal-sm">
             <div class="modal-content">
                 <div class="modal-header">
-                    
+
                     <h4 class="modal-title text-center">Please select department</h4>
                 </div>
                 <div class="modal-body">
@@ -183,7 +207,7 @@
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
                     <a href="/AUSOWeb/addnewdoc.jsp">
-                       <button type="button" class="btn btn-primary">Submit</button> 
+                        <button type="button" class="btn btn-primary">Submit</button> 
                     </a>                 
                 </div>
             </div>
