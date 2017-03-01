@@ -10,7 +10,8 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-        <title>LOGIN - AUSO JSP</title>
+        <link rel="stylesheet" href="customcss/customlogin.css">
+        <title>LOGIN - AUSO.JSP</title>
     </head>
     <body>
         <div class="container">
