@@ -183,6 +183,249 @@
                             <label for="venueName">Venue Name</label>
                             <input type="text" class="form-control" id="venueName" placeholder="venue name...">
                         </div>
+
+                        <fieldset class="form-group">
+                            <legend>Organizers <span><button type="button" class="btn btn-sm btn-success pull-right">+</button></span></legend>
+                            <div class="row">
+                                <div class="table-responsive">
+                                    <table class="table table-striped" id="organizertb">
+                                        <thead>
+                                            <tr>
+
+                                                <th>Student Id</th>
+                                                <th>Phone No.</th>
+                                                <th>Email Address</th>
+                                                <th>Position</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+
+                                                <td>
+                                                    <input name="studentId" type="text" class="form-control"/>
+                                                </td>
+                                                <td>
+                                                    <input name="phoneNo" type="text" class="form-control"/>
+                                                </td>
+                                                <td>
+                                                    <input name="emailAddress" type="text" class="form-control"/>
+                                                </td>
+                                                <td>
+                                                    <select name="teampos" style="width:190px" style="width: 100%;">
+                                                        <option value="-">-</option>
+
+                                                        <option value="09">Participant</option>
+
+                                                        <option value="02">Project Committee</option>
+
+                                                        <option value="01">Project Leader</option>
+
+                                                        <option value="03">Project Staff</option>
+                                                    </select>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="form-group">
+                            <legend>Advisors <span><button type="button" class="btn btn-sm btn-success pull-right">+</button></span></legend>
+                            <div class="row">
+                                <div class="table-responsive">
+                                    <table class="table table-striped" id="advisortb">
+                                        <thead>
+                                            <tr>
+
+                                                <th>Advisor Name</th>
+                                                <th>Advisor Position</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <input name="advisorName" type="text" class="form-control"/>
+                                                </td>
+
+                                                <td>
+                                                    <select name="advisorPosition1" style="width: 100%;">
+                                                        <option value="-">-</option>
+                                                        <option value="Student Activity Advisor">Student Activity Advisor</option>
+                                                        <option value="Coordinator from each faculty">Student Development Coordinator</option>
+                                                    </select>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <div class="form-group">
+                            <label for="kpis">KPIs</label>
+                            <textarea class="form-control" id="kpis" rows="3"></textarea>
+                        </div>
+
+                        <fieldset class="form-group">
+                            <legend>Goals <span><button type="button" class="btn btn-sm btn-success pull-right">+</button></span></legend>
+                            <div class="row">
+                                <div class="table-responsive">
+                                    <table class="table table-striped" id="goaltb">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    1
+                                                </td>
+                                                <td>
+                                                    <input name="goalTxt" type="text" class="form-control"/>
+                                                </td>
+
+
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="form-group">
+                            <legend>Expected Results <span><button type="button" class="btn btn-sm btn-success pull-right">+</button></span></legend>
+                            <div class="row">
+                                <div class="table-responsive">
+                                    <table class="table table-striped" id="expResulttb">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    1
+                                                </td>
+                                                <td>
+                                                    <input name="expResTxt" type="text" class="form-control"/>
+                                                </td>                                              
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="form-group">
+                            <legend>Estimated Revenues <span><button type="button" class="btn btn-sm btn-success pull-right">+</button></span></legend>
+                            <div class="row">
+                                <div class="table-responsive">
+                                    <table class="table table-striped" id="expResulttb">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Revenue Type</th>
+                                                <th>Amount</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    1
+                                                </td>
+                                                <td>
+                                                    <select name="income1" style="width:100%;">
+                                                        <option value="-">-</option>
+
+                                                        <option value="I0001">Commission of higher education support</option>
+
+                                                        <option value="I0002">Fees</option>
+
+                                                        <option value="I0003">Other Income - Sales</option>
+
+                                                        <option value="I0006">Other income - Donation</option>
+
+                                                        <option value="I0004">Sponsorship</option>
+
+                                                        <option value="I0005">Student Organization Support</option>
+                                                    </select>
+                                                </td>
+
+                                                <td>
+                                                    <input name="Amount1" type="text" class="form-control"/>
+                                                </td> 
+
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="form-group">
+                            <legend>Estimated Expenses <span><button type="button" class="btn btn-sm btn-success pull-right">+</button></span></legend>
+                            <div class="row">
+                                <div class="table-responsive">
+                                    <table class="table table-striped" id="estimatedExp">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Expense Type</th>
+                                                <th>Amount</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    1
+                                                </td>
+                                                <td>
+                                                    <select name="expExpense1" style="width:100%;" class="LK">
+                                                        <option value="-">-</option>
+
+                                                        <option value="E0002">Accommodation and seminar room</option>
+
+                                                        <option value="E0012">Document</option>
+
+                                                        <option value="E0010">Equipment</option>
+
+                                                        <option value="E0001">Food and beverage</option>
+
+                                                        <option value="E0011">Medicine</option>
+
+                                                        <option value="E0018">Miscellaneous</option>
+
+                                                        <option value="E0006">Promotion</option>
+
+                                                        <option value="E0007">Remuneration</option>
+
+                                                        <option value="E0009">Supply</option>
+
+                                                        <option value="E0005">Survey</option>
+
+                                                        <option value="E0003">Transportation</option>
+                                                    </select>
+                                                </td>
+
+                                                <td>
+                                                    <input name="Amount1" type="text" class="form-control"/>
+                                                </td> 
+
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </fieldset>
+
                         <div class="button-group">
                             <button type="submit" class="btn btn-primary pull-right">Submit</button>
                             <a href="/AUSOWeb/documentlist.jsp">

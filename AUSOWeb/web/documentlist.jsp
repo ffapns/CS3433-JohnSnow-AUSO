@@ -77,7 +77,7 @@
                         <li><a data-toggle="tab" href="#progress">PROGRESS DOCUMENTS</a></li>
                     </ul>
 
-                    <div class="tab-content">
+                    <div class="tab-content" style="margin-top: 15px;">
                         <div id="inprogress" class="tab-pane fade in active">
                             <div class="table-responsive">
                                 <table class="table table-striped">
@@ -86,27 +86,16 @@
                                             <th># <span class="caret"></span></th>
                                             <th>PROJECT NAME <span class="caret"></span></th>
                                             <th>CREATED DATE <span class="caret"></span></th>
-                                            <th>PROJECT STATUS <span class="caret"></span></th>
+                                            <th>STATUS <span class="caret"></span></th>
                                             <th></th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>1</td>
-                                            <td>Lorem</td>
-                                            <td>ipsum</td>
-                                            <td>dolor</td>
-                                            <td>
-                                                <div class="btn-group" role="group" aria-label="...">
-                                                    <button type="button" class="btn btn-sm btn-default">VIEW</button>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>amet</td>
-                                            <td>consectetur</td>
-                                            <td>adipiscing</td>
+                                            <td>Code Camp #7</td>
+                                            <td>2016-20-12</td>
+                                            <td>waiting for student affair</td>
                                             <td>
                                                 <div class="btn-group" role="group" aria-label="...">
                                                     <button type="button" class="btn btn-sm btn-default">VIEW</button>
@@ -114,28 +103,8 @@
                                             </td>
                                         </tr>
 
-                                        <tr>
-                                            <td>3</td>
-                                            <td>per</td>
-                                            <td>inceptos</td>
-                                            <td>himenaeos</td>
-                                            <td>
-                                                <div class="btn-group" role="group" aria-label="...">
-                                                    <button type="button" class="btn btn-sm btn-default">VIEW</button>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>4</td>
-                                            <td>sodales</td>
-                                            <td>ligula</td>
-                                            <td>in</td>
-                                            <td>
-                                                <div class="btn-group" role="group" aria-label="...">
-                                                    <button type="button" class="btn btn-sm btn-default">VIEW</button>
-                                                </div>
-                                            </td>
-                                        </tr>
+
+
                                     </tbody>
                                 </table>
                             </div>
@@ -148,34 +117,12 @@
                                             <th>#</th>
                                             <th>PROJECT NAME</th>
                                             <th>CREATED DATE</th>
-                                            <th>PROJECT STATUS</th>
+                                            <th>STATUS</th>
                                             <th></th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Lorem</td>
-                                            <td>ipsum</td>
-                                            <td>dolor</td>
-                                            <td>
-                                                <div class="btn-group" role="group" aria-label="...">
-                                                    <button type="button" class="btn btn-sm btn-default">VIEW</button>
-                                                </div>
-                                            </td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>2</td>
-                                            <td>sodales</td>
-                                            <td>ligula</td>
-                                            <td>in</td>
-                                            <td>
-                                                <div class="btn-group" role="group" aria-label="...">
-                                                    <button type="button" class="btn btn-sm btn-default">VIEW</button>
-                                                </div>
-                                            </td>
-                                        </tr>
+                                     
                                     </tbody>
                                 </table>
                             </div>
